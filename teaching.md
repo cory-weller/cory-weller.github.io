@@ -21,5 +21,13 @@ I'm currently teaching the first course of my own design, **Intro to Computation
 <center><img src="assets/img/classroom_2.jpg" width="300" height="225"></center>
 #### The look of pride for finishing their first GWAS!
 
+## Biology Programming Hours
+
+For the last two years, I’ve hosted a weekly walk-in forum called the *Biology Programming Hours*. It’s a free-form meeting space where people can attend for as much or as little time as they want to discuss programming-related questions. The event is attended by graduate and undergraduate students alike, some coming with specific questions, and others coming just to be part of the community.
+
+<center><a href="assets/img/2019SP_BioProgHrs.png"><img src="assets/img/2019SP_BioProgHrs.png" width="300" height="400"></a></center>
+#### The current iteration of our flier
+
+
 ## Past Courses
-In the past I've instructed a summer session of Organismal and Evolutionary Biology, which I have also TA'd multiple times. I have also TA'd for Human Anatomy & Physiology, and Molecular & Cell Biology.
+In the past I’ve instructed a summer session of Organismal and Evolutionary Biology, and have taught the lab multiple times. I have also taught lab sections for Human Anatomy & Physiology and Molecular & Cell Biology.
