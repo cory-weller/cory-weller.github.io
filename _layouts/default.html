@@ -2,11 +2,11 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
-    <title>{{ site.title }}</title>
+    <title> {{ site.myname }} | {{ page.subject }}</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Note: the stylesheet on the next line refers to the base directory of the username.github.io repository. Remove the leading / before assets to use this repository's stylesheet.  -->
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -22,12 +22,31 @@
     </div>
 
     <div class="navbar">
-        <ul>
-          <li><a href="/"><i class="fas fa-home" style="{% if page.title == "Cory Weller | Home" %}color:#4CAF50 {% endif %}"></i></a></li>
-          <li><a class="{% if page.title == "Cory Weller | About" %}active {% endif %}tooltipped tooltipped-s" href="about_me.html">About</a></li>
-          <li><a class="{% if page.title == "Cory Weller | Research" %}active {% endif %}tooltipped tooltipped-s" href="research.html">Research</a></li>
-          <li><a class="{% if page.title == "Cory Weller | Teaching" %}active {% endif %}tooltipped tooltipped-s" href="teaching.html">Teaching</a></li>
+    <!-- Mobile Nav  -->
+    <div class="mobileNav">
+        <ul id="menu">
+          <li>
+            <input id="check01" type="checkbox" name="menu"/>
+            <label for="check01"><i class="fas fa-bars fa-fw"></i> Menu</label>
+            <ul class="submenu">
+        <li><a href="/" class="{% if page.subject == "Home" %} active {% endif %}"><i class="fas fa-home fa-fw" style="{% if page.subject == "Home" %}color:#4CAF50 {% endif %}"></i> Home</a></li>
+        <li><a href="about_me.html" class="{% if page.subject == "About Me" %} active {% endif %}"><i class="fas fa-id-card fa-fw" style="{% if page.subject == "About Me" %}color:#4CAF50 {% endif %}"></i> About Me</a></li>
+        <li><a href="research.html" class="{% if page.subject == "Research" %} active {% endif %}"><i class="fas fa-chart-bar fa-fw" style="{% if page.subject == "Research" %}color:#4CAF50 {% endif %}"></i> Research</a></li>
+        <li><a href="teaching.html" class="{% if page.subject == "Teaching" %} active {% endif %}"><i class="fas fa-chalkboard-teacher fa-fw" style="{% if page.subject == "Teaching" %}color:#4CAF50 {% endif %}"></i> Teaching</a></li>
+        <li><a href="contact.html" class="{% if page.subject == "Contact" %} active {% endif %}"><i class="fas fa-envelope fa-fw" style="{% if page.subject == "Contact" %}color:#4CAF50 {% endif %}"></i> Contact</a></li>
+            </ul>
+          </li>
         </ul>
+    </div>
+    <!-- Standard Nav  -->
+    <div class="standardNav">
+        <li><a href="/" class="{% if page.subject == "Home" %} active {% endif %}"><i class="fas fa-home fa-fw" style="{% if page.subject == "Home" %}color:#4CAF50 {% endif %}"></i> Home</a></li>
+        <li><a href="about_me.html" class="{% if page.subject == "About Me" %} active {% endif %}"><i class="fas fa-id-card fa-fw" style="{% if page.subject == "About Me" %}color:#4CAF50 {% endif %}"></i> About Me</a></li>
+        <li><a href="research.html" class="{% if page.subject == "Research" %} active {% endif %}"><i class="fas fa-chart-bar fa-fw" style="{% if page.subject == "Research" %}color:#4CAF50 {% endif %}"></i> Research</a></li>
+        <li><a href="teaching.html" class="{% if page.subject == "Teaching" %} active {% endif %}"><i class="fas fa-chalkboard-teacher fa-fw" style="{% if page.subject == "Teaching" %}color:#4CAF50 {% endif %}"></i> Teaching</a></li>
+        <li><a href="contact.html" class="{% if page.subject == "Contact" %} active {% endif %}"><i class="fas fa-envelope fa-fw" style="{% if page.subject == "Contact" %}color:#4CAF50 {% endif %}"></i> Contact</a></li>
+    </div>
+
     </div>
 
     <div class="content">

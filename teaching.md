@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cory Weller | Teaching
+subject: Teaching
 ---
 
 # Teaching

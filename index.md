@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cory Weller | Home
+subject: Home
 ---
 
 # Home

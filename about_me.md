@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cory Weller | About
+subject: About Me
 ---
 
 # About Cory
