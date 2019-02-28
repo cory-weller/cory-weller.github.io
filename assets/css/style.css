@@ -691,6 +691,10 @@ float:left;
   background:#111;
 }
 
+.navbar li a {
+    text-align:center
+}
+
 }
 
 
