@@ -340,8 +340,13 @@ dl {
  margin:0 0 3px
 }
 
-a {
- color:#393f47;
+.content a {
+ color:#4b6484;
+ text-decoration:underline;
+}
+
+.contentFooter a {
+ color:#4b6484;
  text-decoration:none
 }
 
@@ -682,11 +687,7 @@ float:left;
 
 
 
-
-.navbar
-
-
-li a:hover{
+.navbar li a:hover{
   background:#111;
 }
 
