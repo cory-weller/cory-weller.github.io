@@ -669,7 +669,7 @@ display:none;
 
 .standardNav {
 display:inline-block;
-float:left;
+text-align:center;
   list-style-type: none;
   background-color:#393f47;
   height:100%;
