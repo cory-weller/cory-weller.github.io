@@ -7,7 +7,7 @@ title: Cory Weller | About
 
 <center><img src="/assets/img/cory_and_corgi.jpg" width="300" height="300"></center>
 
- **NEW**: I'm on the lookout for a postdoc position in the areas of methods development involving genetic data. Get in touch if our interests might work well together!
+ **NEW**: I'm on the lookout for a postdoc position. Get in touch if our [research interests](research.html) might work well together!
 
  I'm a PhD student in [Alan Bergland's lab](http://bergland-lab.org) in the Biology department at the University of Virginia. My work at UVA has involved computational methods development and analysis of simulated and real-world large-scale genetic data to address questions about ecology and evolution. Read more about my research [here](research.html) or check out my [CV](assets/docs/CAWeller_CV.pdf).
 
