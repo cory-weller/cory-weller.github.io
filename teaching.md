@@ -4,6 +4,9 @@ title: Cory Weller | Teaching
 ---
 
 # Teaching
+#### For full detail, see my [CV](assets/docs/CAWeller_CV.pdf)!
+
+<center><img src="assets/img/classroom_1.jpg" width="300" height="225"></center>
 
 For as long as I can remember, I've been interested in teaching and training others. Aside from working as a TA, the University of Virginia has provided many teaching-related opportunities through the [Center for Teaching Excellence](https://cte.virginia.edu/):
   * I am enrolled in the [Tomorrow's Professor Today](https://cte.virginia.edu/programs/tomorrow%E2%80%99s-professor-today) program
@@ -14,7 +17,6 @@ Prior to starting my PhD, I worked as a biomedical instructor for the American R
 
 ## Intro to Computational Biology
 
-<center><img src="assets/img/classroom_1.jpg" width="300" height="225"></center>
 
 I'm currently teaching the first course of my own design, **Intro to Computational Biology** as a Distinguished Teaching Fellow at UVA. The course is intended for students who have no programming experience, easing students into using a terminal to manipulate files, and using R to analyze data. See the [**course website**](https://cory-weller.github.io/BIOL4585/) for a closer look!
 

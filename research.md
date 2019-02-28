@@ -2,9 +2,9 @@
 layout: default
 title: Cory Weller | Research
 ---
-Note: For more detail, you can always check out my [CV](assets/docs/CAWeller_CV.pdf)!
 
 # Research
+#### For full detail, see my [CV](assets/docs/CAWeller_CV.pdf)!
 
 <center><img src="assets/img/Dros_58.jpg" height="210" width="300"></center>
 #### Bergland labbies at the 2017 Fly Meeting in San Diego
