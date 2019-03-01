@@ -472,7 +472,6 @@ display:none;
   line-height:35px;
 }
 
-
 .navbar li a {
   float:left;
   text-align: left;
@@ -578,9 +577,10 @@ ul#menu{
     width:300px;
 display:flex;
 text-decoration:none;
-line-height:3em;
+line-height:1.5em;
 color:white;
-    justify-content: center;
+    justify-content: right;
+    text-align:right;
 }
 
 .headerTitle a {
